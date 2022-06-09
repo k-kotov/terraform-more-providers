@@ -3,7 +3,7 @@ resource "ad_gpo_security" "gpo_sec" {
   password_policies {
     minimum_password_length = 3
   }
-  
+}
   variable "hostname" { default = "ad.yourdomain.com" }
 variable "username" { default = "user" }
 variable "password" { default = "password" }
