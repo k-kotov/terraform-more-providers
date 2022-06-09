@@ -45,14 +45,6 @@ resource "grafana_cloud_stack" "sm_stack" {
   region_slug = "us"
 }  
   
-  terraform {
-  required_providers {
-    inext = {
-      version = "~> 1.0.0"
-      source  = "checkpointsw/infinity-next"
-    }
-  }
-}
 
 provider "inext" {
   region = "eu"
