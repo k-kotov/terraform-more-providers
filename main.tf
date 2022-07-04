@@ -1,5 +1,5 @@
 resource "random_pet" "run_from_vcs" {
-  keepers = {
+  keepers =  {
     timestamp = timestamp()
   }
 }
